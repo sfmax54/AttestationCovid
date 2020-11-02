@@ -139,7 +139,7 @@ async function generatePdf( user, exitDate, reasons, pdfDoc ){
       'Essayez d\'utiliser des abréviations ("Saint" en "St." par exemple) quand cela est possible.')
     locationSize = 7
   }
-  drawText(user.ville, 105, 180, locationSize)
+  drawText(user.ville, 105, 170, locationSize)
 
   var creationDate = new Date();
   creationDate.setMinutes( creationDate.getMinutes() - 10 );
