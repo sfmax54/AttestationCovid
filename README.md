@@ -5,9 +5,9 @@ Permet la génération de l'attestation de sortie durant le confinement sans avo
 Une première version basée sur NodeJS avait été développée, mais celle-ci imposait la rétention des données à distance, sur un serveur, présentant ainsi une lacune conséquente de sécurité (même si protégé par mot de passe).
 Cette "nouvelle" version propose de conserver les données en local, sur le poste informatique ou le smartphone. Ces données ne transitent plus sur le réseau et ne sont plus accessibles à quiconque hormis sur l'ordi/smartphone.
 
-Accès : https://sfmax54.github.io/AttestCovid/index.html
+Accès : https://sfmax54.github.io/AttestationCovid/index.html
 
-Vous devez d'abord configurer les données personnelles (qui restent donc en local) : https://sfmax54.github.io/AttestCovid/config.html . L'opération est à répéter sur chaque poste.
+Vous devez d'abord configurer les données personnelles (qui restent donc en local) : https://sfmax54.github.io/AttestationCovid/config.html . L'opération est à répéter sur chaque poste.
 
 
 Basé sur les projets ouverts :
