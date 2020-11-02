@@ -68,11 +68,10 @@
 </head>
   <body>
     <div id="info"></div>
-<form action="/generate" id="generateForm">
 
   <a href="config.html">Configurer vos donn&eacute;es personnelles</a><br/>
 Raisons de sortie : <br><br>
-<input type="submit" name="Generer" value="G&eacute;n&eacute;rer">
+<button type="submit" name="Generer" id="generateForm">
   <div class="reasonGrid grid-3-small-1">
 
       <label class="form-check-label" for="checkbox-sport_animaux">
@@ -129,13 +128,10 @@ Raisons de sortie : <br><br>
        </label>
 
   </div>
-<input type="submit" name="Generer" value="G&eacute;n&eacute;rer">
-</form>
 
 <script type="text/javascript">
   initGenerator();
-  $('#generateForm').on('submit', generateAttest );
-  $('#generateForm').on('change', changeFormValue );
+  $('#generateForm').on('click', generateAttest );
   changeFormValue();
 </script>
 
